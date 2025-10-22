@@ -1,1 +1,6 @@
-<script>window.location.replace(`beatsaver://${window.location.search.slice(1)}`);</script>
+<script>if (window.location.search)
+  window.location.replace(`beatsaver://${window.location.search.slice(1)}`);
+</script>
+<body>
+  <p>Oops something went wrong, make sure the map key is valid</p>
+</body>
